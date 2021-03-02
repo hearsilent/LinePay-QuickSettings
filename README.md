@@ -2,7 +2,7 @@
 Android Quick Settings for LINE Pay
 
 ## Screenshot
-<img src="https://github.com/hearsilent/LinePay-QuickSettings/raw/master/screenshots/Screenshot_20210302-155215" height="500">
+<img src="https://github.com/hearsilent/LinePay-QuickSettings/raw/main/screenshots/Screenshot_20210302-155215.png" height="500">
 
 ## Compatibility
 
