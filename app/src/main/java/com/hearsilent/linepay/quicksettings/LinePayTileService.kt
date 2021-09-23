@@ -12,12 +12,12 @@ class LinePayTileService : TileService() {
         try {
             val intent = packageManager.getLaunchIntentForPackage(packageName)
             intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
+            startActivityAndCollapse(intent)
         } catch (e: Exception) {
             val intent = Intent(Intent.ACTION_VIEW)
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             intent.data = Uri.parse("market://details?id=$packageName")
-            startActivity(intent)
+            startActivityAndCollapse(intent)
         }
     }
 }
