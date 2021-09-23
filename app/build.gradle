@@ -9,8 +9,8 @@ android {
     defaultConfig {
         applicationId "com.hearsilent.linepay.quicksettings"
         minSdkVersion 24
-        versionCode 10000
-        versionName "1.0.0"
+        versionCode 10001
+        versionName "1.0.1"
         targetSdkVersion 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
