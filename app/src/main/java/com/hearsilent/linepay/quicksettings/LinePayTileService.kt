@@ -8,7 +8,7 @@ class LinePayTileService : TileService() {
 
     override fun onClick() {
         super.onClick()
-        val packageName = "com.linepaycorp.talaria"
+        val packageName = "com.linepaytw.upay"
         try {
             val intent = packageManager.getLaunchIntentForPackage(packageName)
             intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
